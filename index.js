@@ -387,23 +387,57 @@ const arrayObject = [{ name: "Akosua", age: 4, gender: "female" }, { name: "Kofi
 // returnKeys();
 
 //write a function to show the position of a letter in a string
-function showStringPosition(dazzle) {
-    const splitString = dazzle.split('')
-    console.log(splitString)
-    for (let i = 0; i < splitString.length; i++) {
-        // console.log("msmmmama", splitString[i])
-        if (splitString[i]) {
-            console.log(`this is ${splitString[0]}`)
+// function showStringPosition(dazzle) {
+//     const splitString = dazzle.split('')
+//     console.log(splitString)
+//     for (let i = 0; i < splitString.length; i++) {
 
-        }
+//         if (splitString[i]) {
+//             console.log(`this is ${splitString[0]}`)
 
-    }
+//         }
+
+//     }
 
 
+// }
+
+// showStringPosition('a');
+
+
+//write a function to find the odd numbers in an array of numbers
+// using forEach
+const mixedNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1]
+// let newOddFind = []
+
+// function findOddNumbers() {
+//     mixedNumbers.forEach(num => {
+//         if (num % 2) {
+//             newOddFind.push(num)
+//             console.log(newOddFind)
+
+//         }
+//     })
+
+
+
+// }
+
+
+// findOddNumbers();
+
+//write a function to find the odd numbers in an array of numbers
+const oddNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1]
+let oddFind = []
+//using filter
+
+function findFilteredOddNum() {
+    const oddFiltered = oddNumbers.filter(num => num % 2)
+    oddFind.push(oddFiltered)
+    console.log(oddFind)
 }
 
-showStringPosition('a');
-
-
+findFilteredOddNum();
+//write a 
 
 
