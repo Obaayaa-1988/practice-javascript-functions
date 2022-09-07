@@ -438,6 +438,11 @@ function findFilteredOddNum() {
 }
 
 findFilteredOddNum();
-//write a 
+//write a function to change the color of a button
+const button = document.querySelector(".btn")
+
+button.addEventListener("click", () => {
+    button.style.backgroundColor = "yellow";
+})
 
 
