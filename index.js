@@ -445,4 +445,17 @@ button.addEventListener("click", () => {
     button.style.backgroundColor = "yellow";
 })
 
+//write a javascript function to reverse a number
+
+const nombre = 400;
+
+
+function reverseNumber() {
+    const changeNumber = (String(nombre))
+    const splitNumber = changeNumber.split('')
+
+    console.log(splitNumber.reverse())
+}
+
+reverseNumber();
 
