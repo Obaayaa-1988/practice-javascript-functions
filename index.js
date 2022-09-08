@@ -399,8 +399,8 @@ function showStringPosition(a, b) {
 
             let splitIndex = splitStr.indexOf(b)
             // let splitPosition = splitIndex + 1
-            // console.log(splitIndex)s
-            console.log(splitPosition)
+            console.log(splitIndex)
+            // console.log(splitPosition)
 
         }
 
@@ -470,3 +470,8 @@ let oddFind = []
 
 // reverseNumber();
 
+//write a javascript function to generate a random integer
+
+function generateRandomInteger(){
+    
+}
