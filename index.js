@@ -472,6 +472,11 @@ let oddFind = []
 
 //write a javascript function to generate a random integer
 
-function generateRandomInteger(){
-    
+function generateRandomInteger(a) {
+
+    const randomInteger = Math.floor(Math.random() * a)
+    console.log(`random integers from ${a} are ${randomInteger}`)
+
 }
+
+generateRandomInteger(100);
