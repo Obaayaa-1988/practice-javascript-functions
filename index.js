@@ -387,22 +387,33 @@ const arrayObject = [{ name: "Akosua", age: 4, gender: "female" }, { name: "Kofi
 // returnKeys();
 
 //write a function to show the position of a letter in a string
-// function showStringPosition(dazzle) {
-//     const splitString = dazzle.split('')
-//     console.log(splitString)
-//     for (let i = 0; i < splitString.length; i++) {
+//first== you need a strind and a letter in that string
+//
 
-//         if (splitString[i]) {
-//             console.log(`this is ${splitString[0]}`)
+// let letter = "mango"
+function showStringPosition(a, b) {
+    const splitStr = a.split("");
+    for (let i = 0; i < splitStr.length; i++) {
+        if (splitStr[i] === b) {
+            // console.log("mmmm", splitStr[i])
 
-//         }
+            let splitIndex = splitStr.indexOf(b)
+            // let splitPosition = splitIndex + 1
+            // console.log(splitIndex)s
+            console.log(splitPosition)
 
-//     }
+        }
 
 
-// }
+    }
 
-// showStringPosition('a');
+
+}
+
+showStringPosition("mango", 'n');
+
+// const str = "mango"
+// console.log(str[3])
 
 
 //write a function to find the odd numbers in an array of numbers
@@ -431,31 +442,31 @@ const oddNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1]
 let oddFind = []
 //using filter
 
-function findFilteredOddNum() {
-    const oddFiltered = oddNumbers.filter(num => num % 2)
-    oddFind.push(oddFiltered)
-    console.log(oddFind)
-}
+// function findFilteredOddNum() {
+//     const oddFiltered = oddNumbers.filter(num => num % 2)
+//     oddFind.push(oddFiltered)
+//     console.log(oddFind)
+// }
 
-findFilteredOddNum();
+//findFilteredOddNum();
 //write a function to change the color of a button
-const button = document.querySelector(".btn")
+// const button = document.querySelector(".btn")
 
-button.addEventListener("click", () => {
-    button.style.backgroundColor = "yellow";
-})
+// button.addEventListener("click", () => {
+//     button.style.backgroundColor = "yellow";
+// })
 
 //write a javascript function to reverse a number
 
-const nombre = 400;
+// const nombre = 400;
 
 
-function reverseNumber() {
-    const changeNumber = (String(nombre))
-    const splitNumber = changeNumber.split('')
+// function reverseNumber() {
+//     const changeNumber = (String(nombre))
+//     const splitNumber = changeNumber.split('')
 
-    console.log(splitNumber.reverse())
-}
+//     console.log(splitNumber.reverse())
+// }
 
-reverseNumber();
+// reverseNumber();
 
