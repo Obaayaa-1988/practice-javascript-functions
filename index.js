@@ -391,26 +391,26 @@ const arrayObject = [{ name: "Akosua", age: 4, gender: "female" }, { name: "Kofi
 //
 
 // let letter = "mango"
-function showStringPosition(a, b) {
-    const splitStr = a.split("");
-    for (let i = 0; i < splitStr.length; i++) {
-        if (splitStr[i] === b) {
-            // console.log("mmmm", splitStr[i])
+// function showStringPosition(a, b) {
+//     const splitStr = a.split("");
+//     for (let i = 0; i < splitStr.length; i++) {
+//         if (splitStr[i] === b) {
+//             // console.log("mmmm", splitStr[i])
 
-            let splitIndex = splitStr.indexOf(b)
-            // let splitPosition = splitIndex + 1
-            console.log(splitIndex)
-            // console.log(splitPosition)
+//             let splitIndex = splitStr.indexOf(b)
+//             // let splitPosition = splitIndex + 1
+//             console.log(splitIndex)
+//             // console.log(splitPosition)
 
-        }
-
-
-    }
+//         }
 
 
-}
+//     }
 
-showStringPosition("mango", 'n');
+
+// }
+
+// showStringPosition("mango", 'n');
 
 // const str = "mango"
 // console.log(str[3])
@@ -472,11 +472,17 @@ let oddFind = []
 
 //write a javascript function to generate a random integer
 
-function generateRandomInteger(a) {
+// function generateRandomInteger(a) {
 
-    const randomInteger = Math.floor(Math.random() * a)
-    console.log(`random integers from ${a} are ${randomInteger}`)
+//     const randomInteger = Math.floor(Math.random() * a)
+//     console.log(`random integers from ${a} are ${randomInteger}`)
 
-}
+// }
 
-generateRandomInteger(100);
+// generateRandomInteger(100);
+
+//write a function to return the first element of an array
+const arr = ['boy', 'girl', 'male', 'female']
+
+
+
