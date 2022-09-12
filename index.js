@@ -387,30 +387,30 @@ const arrayObject = [{ name: "Akosua", age: 4, gender: "female" }, { name: "Kofi
 // returnKeys();
 
 //write a function to show the position of a letter in a string
-//first== you need a strind and a letter in that string
+//first== you need a string and a letter in that string
 //
 
 // let letter = "mango"
-function showStringPosition(a, b) {
-    const splitStr = a.split("");
-    for (let i = 0; i < splitStr.length; i++) {
-        if (splitStr[i] === b) {
-            // console.log("mmmm", splitStr[i])
+// function showStringPosition(a, b) {
+//     const splitStr = a.split("");
+//     for (let i = 0; i < splitStr.length; i++) {
+//         if (splitStr[i] === b) {
+//             // console.log("mmmm", splitStr[i])
 
-            let splitIndex = splitStr.indexOf(b)
-            // let splitPosition = splitIndex + 1
-            console.log(splitIndex)
-            // console.log(splitPosition)
+//             let splitIndex = splitStr.indexOf(b)
+//             // let splitPosition = splitIndex + 1
+//             console.log(splitIndex)
+//             // console.log(splitPosition)
 
-        }
-
-
-    }
+//         }
 
 
-}
+//     }
 
-showStringPosition("mango", 'n');
+
+// }
+
+// showStringPosition("mango", 'n');
 
 // const str = "mango"
 // console.log(str[3])
@@ -472,11 +472,25 @@ let oddFind = []
 
 //write a javascript function to generate a random integer
 
-function generateRandomInteger(a) {
+// function generateRandomInteger(a) {
 
-    const randomInteger = Math.floor(Math.random() * a)
-    console.log(`random integers from ${a} are ${randomInteger}`)
+//     const randomInteger = Math.floor(Math.random() * a)
+//     console.log(`random integers from ${a} are ${randomInteger}`)
 
+// }
+
+// generateRandomInteger(100);
+
+
+//write a function to convert age into days
+
+function convertDaysToAge(a) {
+    const mainAge = a * 365;
+    console.log(mainAge)
 }
 
-generateRandomInteger(100);
+convertDaysToAge(96);
+
+
+//write a function to convert power to current
+
