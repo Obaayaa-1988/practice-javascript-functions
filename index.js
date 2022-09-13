@@ -473,7 +473,6 @@ let oddFind = []
 //write a javascript function to generate a random integer
 
 // function generateRandomInteger(a) {
-<<<<<<< HEAD
 
 //     const randomInteger = Math.floor(Math.random() * a)
 //     console.log(`random integers from ${a} are ${randomInteger}`)
@@ -494,19 +493,14 @@ convertDaysToAge(96);
 
 
 //write a function to convert power to current
+//where P is power measured in watts
+//I is current measured in amps
+// E is voltage measured in volts
 
-=======
-
-//     const randomInteger = Math.floor(Math.random() * a)
-//     console.log(`random integers from ${a} are ${randomInteger}`)
-
-// }
-
-// generateRandomInteger(100);
-
-//write a function to return the first element of an array
-const arr = ['boy', 'girl', 'male', 'female']
+function convertPowerToCurrent(){
+    const power I = P / E;
 
 
+}
 
->>>>>>> 0ca137cd09bc846b1654212ca6d6cd5e72a15a9e
+convertPowerToCovert
