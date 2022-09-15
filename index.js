@@ -497,10 +497,17 @@ convertDaysToAge(96);
 //I is current measured in amps
 // E is voltage measured in volts
 
-function convertPowerToCurrent(){
-    const power I = P / E;
+function convertPowerToCurrent(volts, amps) {
+    const power = volts * amps
+    console.log(`${power}W`)
 
 
 }
 
-convertPowerToCovert
+convertPowerToCurrent(120, 1200);
+
+//
+
+function fridayTheThirteenths(start, end){
+
+}
