@@ -509,9 +509,12 @@ convertDaysToAge(96);
 //
 
 function fridayTheThirteenths(start, end) {
-    const fridayDates = new Date(`${8}/${13}/${start}`);
+    const fridayDates = new Date(`${13}/${start}`);
+    const endDates = new Date(`${13} / ${end}`);
     console.log(`${fridayDates}`)
+    console.log(`${endDates}`)
 
 }
 
-fridayTheThirteenths(2020);
+fridayTheThirteenths(1999, 2000);
+
