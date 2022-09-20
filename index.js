@@ -522,9 +522,30 @@ convertDaysToAge(96);
 
 function do_math(a) {
    const sortComma = Array.from(a) 
+//    console.log(sortComma)
    const sortIndex = sortComma.splice(0, 4)
-   const singleIndex= sortIndex.sort().join()
-   console.log(singleIndex)
+   const singleIndex= sortIndex.sort()
+   const popIndex = singleIndex.slice(0, 3).join()
+    const replaceIndex = popIndex.replaceAll(',', '')
+    console.log(replaceIndex)
+
+    const satIndex = sortComma.splice(1, 4)
+    // console.log(satIndex)
+    const satsIndex = satIndex.sort()
+    const popsIndex = satsIndex.slice(0, 3).join()
+    const replacesIndex = popsIndex.replaceAll(',', '')
+    console.log(replacesIndex)
+    
+
+
+    // const sortIndex = sortComma.splice(0, 4)
+    // const singleIndex = sortIndex.sort()
+    // const popIndex = singleIndex.slice(0, 3).join()
+    // const replaceIndex = popIndex.replaceAll(',', '')
+    // console.log(replaceIndex)
+
+
+
 
 
 
