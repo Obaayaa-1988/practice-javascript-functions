@@ -508,13 +508,35 @@ convertDaysToAge(96);
 
 //
 
-function fridayTheThirteenths(start, end) {
-    const fridayDates = new Date(`${13}/${start}`);
-    const endDates = new Date(`${13} / ${end}`);
-    console.log(`${fridayDates}`)
-    console.log(`${endDates}`)
+// function fridayTheThirteenths(start, end) {
+//     const fridayDates = new Date(`${13}/${start}`);
+//     const endDates = new Date(`${13} / ${end}`);
+//     console.log(`${fridayDates}`)
+//     console.log(`${endDates}`)
+
+// }
+
+// fridayTheThirteenths(1999, 2000);
+
+//function to sort strings of alphabet and numbers
+
+function do_math(a) {
+   const sortComma = Array.from(a) 
+   const sortIndex = sortComma.splice(0, 4)
+   const singleIndex= sortIndex.sort().join()
+   console.log(singleIndex)
+
+
 
 }
 
-fridayTheThirteenths(1999, 2000);
+do_math("24z6 1x23 y369 89a 900b");                
 
+
+
+// function sortNum (a, b) {
+    
+//     return (a - b) 
+
+// }
+// sortNum();
