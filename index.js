@@ -484,12 +484,12 @@ let oddFind = []
 
 //write a function to convert age into days
 
-function convertDaysToAge(a) {
-    const mainAge = a * 365;
-    console.log(mainAge)
-}
+// function convertDaysToAge(a) {
+//     const mainAge = a * 365;
+//     console.log(mainAge)
+// }
 
-convertDaysToAge(96);
+// convertDaysToAge(96);
 
 
 //write a function to convert power to current
@@ -520,63 +520,88 @@ convertDaysToAge(96);
 
 //function to sort strings of alphabet and numbers
 
-function do_math(a) {
-   const sortComma = Array.from(a) 
-   //for z 246
-//    console.log(sortComma)
-   const sortIndex = sortComma.splice(0, 4)
-   const singleIndex= sortIndex.sort()
-   const popIndex = singleIndex.slice(0, 3).join()
-    const replaceIndex = popIndex.replaceAll(',', '')
-    // console.log(replaceIndex)
+// function do_math(a) {
+//    const sortComma = Array.from(a) 
+//    //for z 246
+// //    console.log(sortComma)
+//    const sortIndex = sortComma.splice(0, 4)
+//    const singleIndex= sortIndex.sort()
+//    const popIndex = singleIndex.slice(0, 3).join()
+//     const replaceIndex = popIndex.replaceAll(',', '')
+//     // console.log(replaceIndex)
 
-    //for x 123
+//     //for x 123
 
-    const satIndex = sortComma.splice(1, 4)
-    // console.log(satIndex)
-    const satsIndex = satIndex.sort()
-    const popsIndex = satsIndex.slice(0, 3).join()
-    const replacesIndex = popsIndex.replaceAll(',', '')
-    // console.log(replacesIndex)
-    
-
-//for y 369
-    const sortsIndex = sortComma.splice(2, 4)
-    const singlesIndex = sortsIndex.sort()
-    const popsesIndex = singlesIndex.slice(0, 3).join()
-    const replacesesIndex = popsesIndex.replaceAll(',', '')
-    // console.log(replacesesIndex)
-
-// for a 89 placeindex
-    const sortsesIndex = sortComma.splice(2, 3)
-    const singsIndex = sortsesIndex.sort()
-    const posesIndex = singsIndex.slice(0, 3).join()
-    const placeIndex = posesIndex.replaceAll(',', '')
-    // console.log(placeIndex)
-
-//for b 900
-    const nineIndex = sortComma.splice(4, 5)
-    const ninesIndex = nineIndex.sort()
-    const nopeIndex = ninesIndex.slice(0, 3).reverse().join()
-    const placesIndex = nopeIndex.replaceAll(',', '')
-    // console.log(placesIndex)
-
-    const totalIndex = (parseInt(placeIndex) + parseInt(placesIndex) - parseInt(replacesIndex)) * parseFloat(replacesesIndex) / parseInt(replaceIndex)
-    
-     console.log(totalIndex)
+//     const satIndex = sortComma.splice(1, 4)
+//     // console.log(satIndex)
+//     const satsIndex = satIndex.sort()
+//     const popsIndex = satsIndex.slice(0, 3).join()
+//     const replacesIndex = popsIndex.replaceAll(',', '')
+//     // console.log(replacesIndex)
 
 
-//89 + 900 - 123 * 369 / 246 = 1299
-}
+// //for y 369
+//     const sortsIndex = sortComma.splice(2, 4)
+//     const singlesIndex = sortsIndex.sort()
+//     const popsesIndex = singlesIndex.slice(0, 3).join()
+//     const replacesesIndex = popsesIndex.replaceAll(',', '')
+//     // console.log(replacesesIndex)
 
-do_math("24z6 1x23 y369 89a 900b");                
-do_math("24z6 1z23 y369 89z 900b");                
+// // for a 89 placeindex
+//     const sortsesIndex = sortComma.splice(2, 3)
+//     const singsIndex = sortsesIndex.sort()
+//     const posesIndex = singsIndex.slice(0, 3).join()
+//     const placeIndex = posesIndex.replaceAll(',', '')
+//     // console.log(placeIndex)
+
+// //for b 900
+//     const nineIndex = sortComma.splice(4, 5)
+//     const ninesIndex = nineIndex.sort()
+//     const nopeIndex = ninesIndex.slice(0, 3).reverse().join()
+//     const placesIndex = nopeIndex.replaceAll(',', '')
+//     // console.log(placesIndex)
+
+//     const totalIndex = (parseInt(placeIndex) + parseInt(placesIndex) - parseInt(replacesIndex)) * parseFloat(replacesesIndex) / parseInt(replaceIndex)
+
+//      console.log(totalIndex)
+
+
+// //89 + 900 - 123 * 369 / 246 = 1299
+// }
+
+// do_math("24z6 1x23 y369 89a 900b");                
+// do_math("24z6 1z23 y369 89z 900b");                
 
 
 
 // function sortNum (a, b) {
-    
+
 //     return (a - b) 
 
 // }
 // sortNum();
+
+// a function to return the keys of all nested object
+var obj = {
+    site: "Codewars",
+    description: "Lorem ipsum dolor sit...",
+
+    obj2: {
+        str: "Yeah, Codewars!",
+        num: 123,
+
+        obj3: {
+            something: "Ph'nglui mglw'nafh Codewars R'lyeh wgah'nagl fhtagn. Gotha fm'latgh h'gof'nn, geb chtenff"
+        }
+    }
+};
+
+function AllObjectKeys() {
+    // const allKeys = Object.keys(obj, obj.obj2, obj.obj2.obj3).sort()
+    const allKeys = Object.keys(obj.obj2.obj2.obj3)
+
+    console.log(allKeys)
+
+}
+
+AllObjectKeys()
