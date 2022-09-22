@@ -522,36 +522,55 @@ convertDaysToAge(96);
 
 function do_math(a) {
    const sortComma = Array.from(a) 
+   //for z 246
 //    console.log(sortComma)
    const sortIndex = sortComma.splice(0, 4)
    const singleIndex= sortIndex.sort()
    const popIndex = singleIndex.slice(0, 3).join()
     const replaceIndex = popIndex.replaceAll(',', '')
-    console.log(replaceIndex)
+    // console.log(replaceIndex)
+
+    //for x 123
 
     const satIndex = sortComma.splice(1, 4)
     // console.log(satIndex)
     const satsIndex = satIndex.sort()
     const popsIndex = satsIndex.slice(0, 3).join()
     const replacesIndex = popsIndex.replaceAll(',', '')
-    console.log(replacesIndex)
+    // console.log(replacesIndex)
     
 
+//for y 369
+    const sortsIndex = sortComma.splice(2, 4)
+    const singlesIndex = sortsIndex.sort()
+    const popsesIndex = singlesIndex.slice(0, 3).join()
+    const replacesesIndex = popsesIndex.replaceAll(',', '')
+    // console.log(replacesesIndex)
 
-    // const sortIndex = sortComma.splice(0, 4)
-    // const singleIndex = sortIndex.sort()
-    // const popIndex = singleIndex.slice(0, 3).join()
-    // const replaceIndex = popIndex.replaceAll(',', '')
-    // console.log(replaceIndex)
+// for a 89 placeindex
+    const sortsesIndex = sortComma.splice(2, 3)
+    const singsIndex = sortsesIndex.sort()
+    const posesIndex = singsIndex.slice(0, 3).join()
+    const placeIndex = posesIndex.replaceAll(',', '')
+    // console.log(placeIndex)
+
+//for b 900
+    const nineIndex = sortComma.splice(4, 5)
+    const ninesIndex = nineIndex.sort()
+    const nopeIndex = ninesIndex.slice(0, 3).reverse().join()
+    const placesIndex = nopeIndex.replaceAll(',', '')
+    // console.log(placesIndex)
+
+    const totalIndex = (parseInt(placeIndex) + parseInt(placesIndex) - parseInt(replacesIndex)) * parseFloat(replacesesIndex) / parseInt(replaceIndex)
+    
+     console.log(totalIndex)
 
 
-
-
-
-
+//89 + 900 - 123 * 369 / 246 = 1299
 }
 
 do_math("24z6 1x23 y369 89a 900b");                
+do_math("24z6 1z23 y369 89z 900b");                
 
 
 
