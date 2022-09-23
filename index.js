@@ -597,11 +597,13 @@ var obj = {
 };
 
 function AllObjectKeys() {
-    // const allKeys = Object.keys(obj, obj.obj2, obj.obj2.obj3).sort()
-    const allKeys = Object.keys(obj.obj2.obj2.obj3)
+    const allKeys = Object.keys(obj, obj.obj2, obj.obj2.obj3).sort()
+    // const allKeys = Object.keys(obj)
 
     console.log(allKeys)
 
 }
 
 AllObjectKeys()
+
+//results = ["obj2.obj3.something", "obj2.str", "site"]
