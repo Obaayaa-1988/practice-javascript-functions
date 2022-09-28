@@ -582,28 +582,54 @@ let oddFind = []
 // sortNum();
 
 // a function to return the keys of all nested object
-var obj = {
-    site: "Codewars",
-    description: "Lorem ipsum dolor sit...",
+// var obj = {
+//     site: "Codewars",
+//     description: "Lorem ipsum dolor sit...",
 
-    obj2: {
-        str: "Yeah, Codewars!",
-        num: 123,
+//     obj2: {
+//         str: "Yeah, Codewars!",
+//         num: 123,
 
-        obj3: {
-            something: "Ph'nglui mglw'nafh Codewars R'lyeh wgah'nagl fhtagn. Gotha fm'latgh h'gof'nn, geb chtenff"
-        }
-    }
-};
+//         obj3: {
+//             something: "Ph'nglui mglw'nafh Codewars R'lyeh wgah'nagl fhtagn. Gotha fm'latgh h'gof'nn, geb chtenff"
+//         }
+//     }
+// };
 
-function AllObjectKeys() {
-    const allKeys = Object.keys(obj, obj.obj2, obj.obj2.obj3).sort()
-    // const allKeys = Object.keys(obj)
+// function AllObjectKeys() {
+//     const allKeys = Object.keys(obj, obj.obj2, obj.obj2.obj3).sort()
+//     // const allKeys = Object.keys(obj)
 
-    console.log(allKeys)
+//     console.log(allKeys)
 
-}
+// }
 
-AllObjectKeys()
+// AllObjectKeys()
 
 //results = ["obj2.obj3.something", "obj2.str", "site"]
+
+//write a function to print all even numbers between 0-10
+
+const numPrint = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numArr = []
+
+function printNumbers() {
+    numPrint.forEach(num => {
+        if (num % 2 == 0) {
+            numArr.push(num)
+            console.log(numArr)
+        }
+    })
+}
+
+printNumbers();
+
+
+// function findOddNumbers() {
+//     mixedNumbers.forEach(num => {
+//         if (num % 2) {
+//             newOddFind.push(num)
+//             console.log(newOddFind)
+
+//         }
+//     })
