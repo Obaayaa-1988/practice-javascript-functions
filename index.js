@@ -484,5 +484,14 @@ let oddFind = []
 //write a function to return the first element of an array
 const arr = ['boy', 'girl', 'male', 'female']
 
+function firstArrayElement(){
+    const firstElement = arr[1];
+    console.log(firstElement)
+    
+}
+
+firstArrayElement();
+
+
 
 
