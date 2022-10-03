@@ -387,7 +387,7 @@ const arrayObject = [{ name: "Akosua", age: 4, gender: "female" }, { name: "Kofi
 // returnKeys();
 
 //write a function to show the position of a letter in a string
-//first== you need a strind and a letter in that string
+//first== you need a string and a letter in that string
 //
 
 // let letter = "mango"
@@ -481,17 +481,155 @@ let oddFind = []
 
 // generateRandomInteger(100);
 
-//write a function to return the first element of an array
-const arr = ['boy', 'girl', 'male', 'female']
 
-function firstArrayElement(){
-    const firstElement = arr[1];
-    console.log(firstElement)
-    
+//write a function to convert age into days
+
+// function convertDaysToAge(a) {
+//     const mainAge = a * 365;
+//     console.log(mainAge)
+// }
+
+// convertDaysToAge(96);
+
+
+//write a function to convert power to current
+//where P is power measured in watts
+//I is current measured in amps
+// E is voltage measured in volts
+
+// function convertPowerToCurrent(volts, amps) {
+//     const power = volts * amps
+//     console.log(`${power}W`)
+
+
+// }
+
+// convertPowerToCurrent(120, 1200);
+
+//
+
+// function fridayTheThirteenths(start, end) {
+//     const fridayDates = new Date(`${13}/${start}`);
+//     const endDates = new Date(`${13} / ${end}`);
+//     console.log(`${fridayDates}`)
+//     console.log(`${endDates}`)
+
+// }
+
+// fridayTheThirteenths(1999, 2000);
+
+//function to sort strings of alphabet and numbers
+
+// function do_math(a) {
+//    const sortComma = Array.from(a) 
+//    //for z 246
+// //    console.log(sortComma)
+//    const sortIndex = sortComma.splice(0, 4)
+//    const singleIndex= sortIndex.sort()
+//    const popIndex = singleIndex.slice(0, 3).join()
+//     const replaceIndex = popIndex.replaceAll(',', '')
+//     // console.log(replaceIndex)
+
+//     //for x 123
+
+//     const satIndex = sortComma.splice(1, 4)
+//     // console.log(satIndex)
+//     const satsIndex = satIndex.sort()
+//     const popsIndex = satsIndex.slice(0, 3).join()
+//     const replacesIndex = popsIndex.replaceAll(',', '')
+//     // console.log(replacesIndex)
+
+
+// //for y 369
+//     const sortsIndex = sortComma.splice(2, 4)
+//     const singlesIndex = sortsIndex.sort()
+//     const popsesIndex = singlesIndex.slice(0, 3).join()
+//     const replacesesIndex = popsesIndex.replaceAll(',', '')
+//     // console.log(replacesesIndex)
+
+// // for a 89 placeindex
+//     const sortsesIndex = sortComma.splice(2, 3)
+//     const singsIndex = sortsesIndex.sort()
+//     const posesIndex = singsIndex.slice(0, 3).join()
+//     const placeIndex = posesIndex.replaceAll(',', '')
+//     // console.log(placeIndex)
+
+// //for b 900
+//     const nineIndex = sortComma.splice(4, 5)
+//     const ninesIndex = nineIndex.sort()
+//     const nopeIndex = ninesIndex.slice(0, 3).reverse().join()
+//     const placesIndex = nopeIndex.replaceAll(',', '')
+//     // console.log(placesIndex)
+
+//     const totalIndex = (parseInt(placeIndex) + parseInt(placesIndex) - parseInt(replacesIndex)) * parseFloat(replacesesIndex) / parseInt(replaceIndex)
+
+//      console.log(totalIndex)
+
+
+// //89 + 900 - 123 * 369 / 246 = 1299
+// }
+
+// do_math("24z6 1x23 y369 89a 900b");                
+// do_math("24z6 1z23 y369 89z 900b");                
+
+
+
+// function sortNum (a, b) {
+
+//     return (a - b) 
+
+// }
+// sortNum();
+
+// a function to return the keys of all nested object
+// var obj = {
+//     site: "Codewars",
+//     description: "Lorem ipsum dolor sit...",
+
+//     obj2: {
+//         str: "Yeah, Codewars!",
+//         num: 123,
+
+//         obj3: {
+//             something: "Ph'nglui mglw'nafh Codewars R'lyeh wgah'nagl fhtagn. Gotha fm'latgh h'gof'nn, geb chtenff"
+//         }
+//     }
+// };
+
+// function AllObjectKeys() {
+//     const allKeys = Object.keys(obj, obj.obj2, obj.obj2.obj3).sort()
+//     // const allKeys = Object.keys(obj)
+
+//     console.log(allKeys)
+
+// }
+
+// AllObjectKeys()
+
+//results = ["obj2.obj3.something", "obj2.str", "site"]
+
+//write a function to print all even numbers between 0-10
+
+const numPrint = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numArr = []
+
+function printNumbers() {
+    numPrint.forEach(num => {
+        if (num % 2 == 0) {
+            numArr.push(num)
+            console.log(numArr)
+        }
+    })
 }
 
-firstArrayElement();
+printNumbers();
 
 
+// function findOddNumbers() {
+//     mixedNumbers.forEach(num => {
+//         if (num % 2) {
+//             newOddFind.push(num)
+//             console.log(newOddFind)
 
-
+//         }
+//     })
