@@ -610,19 +610,19 @@ let oddFind = []
 
 //write a function to print all even numbers between 0-10
 
-const numPrint = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let numArr = []
+// const numPrint = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let numArr = []
 
-function printNumbers() {
-    numPrint.forEach(num => {
-        if (num % 2 == 0) {
-            numArr.push(num)
-            console.log(numArr)
-        }
-    })
-}
+// function printNumbers() {
+//     numPrint.forEach(num => {
+//         if (num % 2 == 0) {
+//             numArr.push(num)
+//             console.log(numArr)
+//         }
+//     })
+// }
 
-printNumbers();
+// printNumbers();
 
 
 // function findOddNumbers() {
@@ -633,3 +633,18 @@ printNumbers();
 
 //         }
 //     })
+//write a function to display the multiplecation table of a number
+// program to generate a multiplication table
+
+// take input from the user
+const number = parseInt(prompt('Enter an integer: '));
+
+//creating a multiplication table
+for(let i = 1; i <= 10; i++) {
+
+    // multiply i with number
+    const result = i * number;
+
+    // display the result
+    console.log(`${number} * ${i} = ${result}`);
+}
