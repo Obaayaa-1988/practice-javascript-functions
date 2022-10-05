@@ -637,14 +637,25 @@ let oddFind = []
 // program to generate a multiplication table
 
 // take input from the user
-const number = parseInt(prompt('Enter an integer: '));
+// const number = parseInt(prompt('Enter an integer: '));
 
-//creating a multiplication table
-for(let i = 1; i <= 10; i++) {
+// //creating a multiplication table
+// for (let i = 1; i <= 10; i++) {
 
-    // multiply i with number
-    const result = i * number;
+//     // multiply i with number
+//     const result = i * number;
 
-    // display the result
-    console.log(`${number} * ${i} = ${result}`);
+//     // display the result
+//     console.log(`${number} * ${i} = ${result}`);
+// }
+
+//Write a function to convert Kilometers to miles
+
+function convertKilosToMiles(a) {
+
+    const kiloMiles = a * 0.6214;
+    const kiloFloor = Math.floor(kiloMiles)
+    console.log(`${a} Kilometer is ${kiloFloor} miles`)
 }
+
+convertKilosToMiles(10);
