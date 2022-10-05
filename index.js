@@ -651,11 +651,22 @@ let oddFind = []
 
 //Write a function to convert Kilometers to miles
 
-function convertKilosToMiles(a) {
+// function convertKilosToMiles(a) {
 
-    const kiloMiles = a * 0.6214;
-    const kiloFloor = Math.floor(kiloMiles)
-    console.log(`${a} Kilometer is ${kiloFloor} miles`)
+//     const kiloMiles = a * 0.6214;
+//     const kiloFloor = Math.floor(kiloMiles)
+//     console.log(`${a} Kilometer is ${kiloFloor} miles`)
+// }
+
+// convertKilosToMiles(10);
+
+//write a function to add all numbers in an array of numbers
+const arrNums = [25, -21, 78.99, 45, 50, 70, 80, 100, -49, 300]
+
+function addAllNumbers() {
+    const addNums = arrNums[0] + arrNums[1] + arrNums[2] + arrNums[3] + arrNums[4] + arrNums[5] + arrNums[6] + arrNums[7] + arrNums[8] + arrNums[9]
+    console.log(addNums)
+
 }
 
-convertKilosToMiles(10);
+addAllNumbers();
