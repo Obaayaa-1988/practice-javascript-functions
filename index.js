@@ -645,29 +645,6 @@ let oddFind = []
 //     // multiply i with number
 //     const result = i * number;
 
-<<<<<<< HEAD
-    // display the result
-    console.log(`${number} * ${i} = ${result}`);
-}
-
-
-
-//write a function to sort an from the lowest to the biggest
-const sortNumbers = [0, 5, 2, 8, 4, 9, 1, 7, 6, 3]
-
-function sortArrayLowestToBiggest() {
-    const sortedNumbers = sortNumbers.sort()
-
-    console.log(sortedNumbers)
-
-
-
-
-
-}
-
-sortArrayLowestToBiggest()
-=======
 //     // display the result
 //     console.log(`${number} * ${i} = ${result}`);
 // }
@@ -693,4 +670,3 @@ function addAllNumbers() {
 }
 
 addAllNumbers();
->>>>>>> 68ba7612803e5af3256c48e4c4d2d7fa91d0776c
