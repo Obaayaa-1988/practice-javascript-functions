@@ -640,7 +640,7 @@ let oddFind = []
 const number = parseInt(prompt('Enter an integer: '));
 
 //creating a multiplication table
-for(let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
 
     // multiply i with number
     const result = i * number;
@@ -648,3 +648,21 @@ for(let i = 1; i <= 10; i++) {
     // display the result
     console.log(`${number} * ${i} = ${result}`);
 }
+
+
+
+//write a function to sort an from the lowest to the biggest
+const sortNumbers = [0, 5, 2, 8, 4, 9, 1, 7, 6, 3]
+
+function sortArrayLowestToBiggest() {
+    const sortedNumbers = sortNumbers.sort()
+
+    console.log(sortedNumbers)
+
+
+
+
+
+}
+
+sortArrayLowestToBiggest()
