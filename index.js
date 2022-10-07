@@ -637,14 +637,15 @@ let oddFind = []
 // program to generate a multiplication table
 
 // take input from the user
-const number = parseInt(prompt('Enter an integer: '));
+// const number = parseInt(prompt('Enter an integer: '));
 
-//creating a multiplication table
-for (let i = 1; i <= 10; i++) {
+// //creating a multiplication table
+// for (let i = 1; i <= 10; i++) {
 
-    // multiply i with number
-    const result = i * number;
+//     // multiply i with number
+//     const result = i * number;
 
+<<<<<<< HEAD
     // display the result
     console.log(`${number} * ${i} = ${result}`);
 }
@@ -666,3 +667,30 @@ function sortArrayLowestToBiggest() {
 }
 
 sortArrayLowestToBiggest()
+=======
+//     // display the result
+//     console.log(`${number} * ${i} = ${result}`);
+// }
+
+//Write a function to convert Kilometers to miles
+
+// function convertKilosToMiles(a) {
+
+//     const kiloMiles = a * 0.6214;
+//     const kiloFloor = Math.floor(kiloMiles)
+//     console.log(`${a} Kilometer is ${kiloFloor} miles`)
+// }
+
+// convertKilosToMiles(10);
+
+//write a function to add all numbers in an array of numbers
+const arrNums = [25, -21, 78.99, 45, 50, 70, 80, 100, -49, 300]
+
+function addAllNumbers() {
+    const addNums = arrNums[0] + arrNums[1] + arrNums[2] + arrNums[3] + arrNums[4] + arrNums[5] + arrNums[6] + arrNums[7] + arrNums[8] + arrNums[9]
+    console.log(addNums)
+
+}
+
+addAllNumbers();
+>>>>>>> 68ba7612803e5af3256c48e4c4d2d7fa91d0776c
