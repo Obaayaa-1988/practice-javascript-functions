@@ -633,7 +633,7 @@ let oddFind = []
 
 //         }
 //     })
-//write a function to display the multiplecation table of a number
+//write a function to display the multiplication table of a number
 // program to generate a multiplication table
 
 // take input from the user
@@ -661,12 +661,34 @@ let oddFind = []
 // convertKilosToMiles(10);
 
 //write a function to add all numbers in an array of numbers
-const arrNums = [25, -21, 78.99, 45, 50, 70, 80, 100, -49, 300]
+// const arrNums = [25, -21, 78.99, 45, 50, 70, 80, 100, -49, 300]
 
-function addAllNumbers() {
-    const addNums = arrNums[0] + arrNums[1] + arrNums[2] + arrNums[3] + arrNums[4] + arrNums[5] + arrNums[6] + arrNums[7] + arrNums[8] + arrNums[9]
-    console.log(addNums)
+// function addAllNumbers() {
+//     const addNums = arrNums[0] + arrNums[1] + arrNums[2] + arrNums[3] + arrNums[4] + arrNums[5] + arrNums[6] + arrNums[7] + arrNums[8] + arrNums[9]
+//     console.log(addNums)
 
+// }
+
+// addAllNumbers();
+
+//OR new approach
+
+// const sum = [1, 2, 3].reduce(add, 0); // with initial value to avoid when the array is empty
+
+// function add(accumulator, a) {
+//     return accumulator + a;
+// }
+
+// console.log(sum); // 6
+//Create a function that filters out negative numbers
+
+const negativeNumbers = [1, -9.5, 6, 4, 7, 2, 8, 54, 32, -8, -8, -4, -6, -10, -1]
+let newNegative = []
+
+function filterNegativeNumbers() {
+    let negatives = negativeNumbers.filter(num => num < 0)
+    newNegative.push(negatives)
+    console.log(newNegative)
 }
 
-addAllNumbers();
+filterNegativeNumbers();
