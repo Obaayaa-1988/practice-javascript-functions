@@ -682,13 +682,23 @@ let oddFind = []
 // console.log(sum); // 6
 //Create a function that filters out negative numbers
 
-const negativeNumbers = [1, -9.5, 6, 4, 7, 2, 8, 54, 32, -8, -8, -4, -6, -10, -1]
-let newNegative = []
+// const negativeNumbers = [1, -9.5, 6, 4, 7, 2, 8, 54, 32, -8, -8, -4, -6, -10, -1]
+// let newNegative = []
 
-function filterNegativeNumbers() {
-    let negatives = negativeNumbers.filter(num => num < 0)
-    newNegative.push(negatives)
-    console.log(newNegative)
+// function filterNegativeNumbers() {
+//     let negatives = negativeNumbers.filter(num => num < 0)
+//     newNegative.push(negatives)
+//     console.log(newNegative)
+// }
+
+// filterNegativeNumbers();
+
+//write a function to remove spaces from a string
+
+function removeSpaces(a) {
+    const removedSpace = a.split(',')
+    const joinSpace = removedSpace.join()
+    console.log(joinSpace)
 }
 
-filterNegativeNumbers();
+removeSpaces('Romance is a bonus');
