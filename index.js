@@ -521,7 +521,7 @@ let oddFind = []
 //function to sort strings of alphabet and numbers
 
 // function do_math(a) {
-//    const sortComma = Array.from(a) 
+//    const sortComma = Array.from(a)
 //    //for z 246
 // //    console.log(sortComma)
 //    const sortIndex = sortComma.splice(0, 4)
@@ -569,14 +569,14 @@ let oddFind = []
 // //89 + 900 - 123 * 369 / 246 = 1299
 // }
 
-// do_math("24z6 1x23 y369 89a 900b");                
-// do_math("24z6 1z23 y369 89z 900b");                
+// do_math("24z6 1x23 y369 89a 900b");
+// do_math("24z6 1z23 y369 89z 900b");
 
 
 
 // function sortNum (a, b) {
 
-//     return (a - b) 
+//     return (a - b)
 
 // }
 // sortNum();
@@ -695,10 +695,23 @@ let oddFind = []
 
 //write a function to remove spaces from a string
 
-function removeSpaces(a) {
-    const removedSpace = a.split(',')
-    const joinSpace = removedSpace.join()
-    console.log(joinSpace)
+// function removeSpaces(a) {
+//     const removedSpace = a.split(',')
+//     const joinSpace = removedSpace.join()
+//     console.log(joinSpace)
+// }
+
+// removeSpaces('Romance is a bonus');
+
+//write a function to return a boolean if a number is divisible by 10
+
+function returnBoolean(a) {
+    if (a / 10 && a === 0) {
+        console.log('true')
+    } else {
+        console.log('false')
+
+    }
 }
 
-removeSpaces('Romance is a bonus');
+returnBoolean(100);
