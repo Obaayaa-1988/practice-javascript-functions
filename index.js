@@ -706,7 +706,7 @@ let oddFind = []
 //write a function to return a boolean if a number is divisible by 10
 
 function returnBoolean(a) {
-    if (a / 10 && a === 0) {
+    if (a % 10 === 0) {
         console.log('true')
     } else {
         console.log('false')
@@ -714,4 +714,4 @@ function returnBoolean(a) {
     }
 }
 
-returnBoolean(100);
+returnBoolean(1);
