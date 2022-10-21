@@ -715,3 +715,14 @@ function returnBoolean(a) {
 }
 
 returnBoolean(1);
+
+//write a function to return the first item of an array
+const firstArray = ['mango', 'pear', 'apple', 'kiwi']
+
+function firstArrayItem() {
+    const firstItem = firstArray[0]
+    console.log(firstItem)
+
+}
+
+firstArrayItem();
