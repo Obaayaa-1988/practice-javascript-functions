@@ -726,3 +726,12 @@ function firstArrayItem() {
 }
 
 firstArrayItem();
+
+//write a function to return the first item of an array
+function incrementNumber(a) {
+    const numIncrement = a + 1;
+    console.log(numIncrement)
+
+}
+
+incrementNumber(10);
