@@ -735,3 +735,12 @@ function incrementNumber(a) {
 }
 
 incrementNumber(10);
+
+//
+
+function returnSomething(b) {
+    console.log(`say something: ${b}`)
+
+}
+
+returnSomething("hello there")
