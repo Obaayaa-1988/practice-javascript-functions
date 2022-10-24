@@ -744,3 +744,20 @@ function returnSomething(b) {
 }
 
 returnSomething("hello there")
+
+//write a function to display date and time when a button is clicked
+
+const btnTime = document.querySelector(".btn2")
+
+function getDate() {
+
+    btnTime.addEventListener('click', () => {
+        const clickedDate = new Date();
+        console.log(clickedDate)
+    })
+
+}
+getDate();
+
+//write a function to change the content of an html element
+
