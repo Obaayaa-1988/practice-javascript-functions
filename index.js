@@ -764,3 +764,13 @@ getDate();
 
 //write a function to change the content of an html element
 
+const textPara = document.querySelector("#para")
+
+function changeContent() {
+    textPara.innerHTML = "I see you "
+    console.log(textPara)
+
+}
+
+changeContent();
+
