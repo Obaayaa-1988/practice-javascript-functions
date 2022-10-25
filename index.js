@@ -717,3 +717,50 @@ returnBoolean(1);
 
 //write a function to return the number of vowels in a string
 
+returnBoolean(1);
+
+//write a function to return the first item of an array
+const firstArray = ['mango', 'pear', 'apple', 'kiwi']
+
+function firstArrayItem() {
+    const firstItem = firstArray[0]
+    console.log(firstItem)
+
+}
+
+firstArrayItem();
+
+//write a function to return the first item of an array
+function incrementNumber(a) {
+    const numIncrement = a + 1;
+    console.log(numIncrement)
+
+}
+
+incrementNumber(10);
+
+//
+
+function returnSomething(b) {
+    console.log(`say something: ${b}`)
+
+}
+
+returnSomething("hello there")
+
+//write a function to display date and time when a button is clicked
+
+const btnTime = document.querySelector(".btn2")
+
+function getDate() {
+
+    btnTime.addEventListener('click', () => {
+        const clickedDate = new Date();
+        console.log(clickedDate)
+    })
+
+}
+getDate();
+
+//write a function to change the content of an html element
+
