@@ -713,5 +713,7 @@ function returnBoolean(a) {
 
     }
 }
-
 returnBoolean(1);
+
+//write a function to return the number of vowels in a string
+
