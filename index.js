@@ -772,5 +772,20 @@ function changeContent() {
 
 }
 
+
 changeContent();
+
+//write a function that takes three arguements for a profitale game comparison
+
+function profitGame(a, b, c) {
+    if (a + b == c) {
+        console.log("true")
+
+    } else {
+        console.log("wrong comparison")
+    }
+
+}
+
+profitGame(2, 3, 5)
 
