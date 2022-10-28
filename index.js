@@ -761,3 +761,19 @@ getDate();
 
 //write a function to change the content of an html element
 
+//write a function to change the image attribute of an html element
+
+const onLight = document.querySelector(".lightOn")
+const offLight = document.querySelector(".lightOff")
+
+onLight.addEventListener('click', () => {
+    onLight.style.src = 'image9.jpg';
+
+
+})
+
+// offLight.addEventListener('click', () => {
+//     offLight.style.src = 'image1.jpg'
+
+//     // console.log(clickedDate)
+// })
