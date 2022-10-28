@@ -713,6 +713,9 @@ function returnBoolean(a) {
 
     }
 }
+returnBoolean(1);
+
+//write a function to return the number of vowels in a string
 
 returnBoolean(1);
 
@@ -777,3 +780,28 @@ onLight.addEventListener('click', () => {
 
 //     // console.log(clickedDate)
 // })
+const textPara = document.querySelector("#para")
+
+function changeContent() {
+    textPara.innerHTML = "I see you "
+    console.log(textPara)
+
+}
+
+
+changeContent();
+
+//write a function that takes three arguements for a profitale game comparison
+
+function profitGame(a, b, c) {
+    if (a + b == c) {
+        console.log("true")
+
+    } else {
+        console.log("wrong comparison")
+    }
+
+}
+
+profitGame(2, 3, 5)
+
