@@ -768,9 +768,11 @@ getDate();
 
 const onLight = document.querySelector(".lightOn")
 const offLight = document.querySelector(".lightOff")
+// const banner = document.querySelector("#ban")
+
 
 onLight.addEventListener('click', () => {
-    onLight.style.src = 'image9.jpg';
+    Image.src = 'image9.jpg';
 
 
 })
