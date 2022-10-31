@@ -764,24 +764,40 @@ returnBoolean(1);
 
 //write a function to change the content of an html element
 
-//write a function to change the image attribute of an html element
+//write a function to change the image attribute of an html element,turn on and off light
 
 const onLight = document.querySelector(".lightOn")
 const offLight = document.querySelector(".lightOff")
 const banner = document.querySelector(".ban")
 const banners = document.querySelector(".bans")
 
+function onLightBulb() {
 
-onLight.addEventListener('click', () => {
-    banner.src = 'light-on.jpg';
+    onLight.addEventListener('click', () => {
+        const banns = banner.src = 'light-on.jpg';
+        console.log(banns)
 
 
-})
+    })
+}
 
-offLight.addEventListener('click', () => {
-    banners.src = 'light-off.jpg'
+onLightBulb();
 
-})
+function offLightBulb() {
+    offLight.addEventListener('click', () => {
+        const bann = banners.src = 'light-off.jpg'
+        console.log(bann)
+
+    })
+
+}
+
+offLightBulb()
+
+
+
+
+
 
 
 
