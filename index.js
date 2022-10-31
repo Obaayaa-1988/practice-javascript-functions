@@ -720,47 +720,47 @@ returnBoolean(1);
 returnBoolean(1);
 
 //write a function to return the first item of an array
-const firstArray = ['mango', 'pear', 'apple', 'kiwi']
+// const firstArray = ['mango', 'pear', 'apple', 'kiwi']
 
-function firstArrayItem() {
-    const firstItem = firstArray[0]
-    console.log(firstItem)
+// function firstArrayItem() {
+//     const firstItem = firstArray[0]
+//     console.log(firstItem)
 
-}
+// }
 
-firstArrayItem();
+// firstArrayItem();
 
 //write a function to return the first item of an array
-function incrementNumber(a) {
-    const numIncrement = a + 1;
-    console.log(numIncrement)
+// function incrementNumber(a) {
+//     const numIncrement = a + 1;
+//     console.log(numIncrement)
 
-}
+// }
 
-incrementNumber(10);
+// incrementNumber(10);
 
-//
+// //
 
-function returnSomething(b) {
-    console.log(`say something: ${b}`)
+// function returnSomething(b) {
+//     console.log(`say something: ${b}`)
 
-}
+// }
 
-returnSomething("hello there")
+// returnSomething("hello there")
 
 //write a function to display date and time when a button is clicked
 
-const btnTime = document.querySelector(".btn2")
+// const btnTime = document.querySelector(".btn2")
 
-function getDate() {
+// function getDate() {
 
-    btnTime.addEventListener('click', () => {
-        const clickedDate = new Date();
-        console.log(clickedDate)
-    })
+//     btnTime.addEventListener('click', () => {
+//         const clickedDate = new Date();
+//         console.log(clickedDate)
+//     })
 
-}
-getDate();
+// }
+// getDate();
 
 //write a function to change the content of an html element
 
@@ -768,42 +768,36 @@ getDate();
 
 const onLight = document.querySelector(".lightOn")
 const offLight = document.querySelector(".lightOff")
-// const banner = document.querySelector("#ban")
+const banner = document.querySelector(".ban")
+const banners = document.querySelector(".bans")
 
 
 onLight.addEventListener('click', () => {
-    Image.src = 'image9.jpg';
+    banner.src = 'light-on.jpg';
 
 
 })
 
-// offLight.addEventListener('click', () => {
-//     offLight.style.src = 'image1.jpg'
+offLight.addEventListener('click', () => {
+    banners.src = 'light-off.jpg'
 
-//     // console.log(clickedDate)
-// })
-const textPara = document.querySelector("#para")
-
-function changeContent() {
-    textPara.innerHTML = "I see you "
-    console.log(textPara)
-
-}
+})
 
 
-changeContent();
+
+// changeContent();
 
 //write a function that takes three arguements for a profitale game comparison
 
-function profitGame(a, b, c) {
-    if (a + b == c) {
-        console.log("true")
+// function profitGame(a, b, c) {
+//     if (a + b == c) {
+//         console.log("true")
 
-    } else {
-        console.log("wrong comparison")
-    }
+//     } else {
+//         console.log("wrong comparison")
+//     }
 
-}
+// }
 
-profitGame(2, 3, 5)
+// profitGame(2, 3, 5)
 
