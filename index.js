@@ -817,3 +817,12 @@ offLightBulb()
 
 // profitGame(2, 3, 5)
 
+//write a function to return tthe next number integer
+
+function nextInteger(a) {
+    const additionToInteger = a + 1;
+    console.log(additionToInteger)
+
+}
+
+nextInteger(22);
