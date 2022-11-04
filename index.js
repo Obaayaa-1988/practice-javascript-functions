@@ -826,3 +826,14 @@ function nextInteger(a) {
 }
 
 nextInteger(22);
+
+//write a function to fix a bug in a code
+
+function exponentCube(a, y) {
+    // const exponentMultiply = a ** y
+    const exponentMultiply = Math.pow(a, y)
+    console.log(exponentMultiply)
+
+}
+
+exponentCube(7, 3)
