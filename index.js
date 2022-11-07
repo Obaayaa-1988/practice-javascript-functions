@@ -848,3 +848,11 @@ function maximumTriangleEdge(a, b) {
 }
 
 maximumTriangleEdge(10, 16);
+
+//write a function to return the remainder of two numbers
+function returnRemainder(a, b) {
+    const showRemainder = (a % b)
+    console.log(showRemainder)
+
+}
+returnRemainder(7, 3);
