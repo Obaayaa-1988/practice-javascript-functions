@@ -836,4 +836,15 @@ function exponentCube(a, y) {
 
 }
 
-exponentCube(7, 3)
+exponentCube(7, 3);
+
+//write a function to find the maximum edge of a triangle
+
+function maximumTriangleEdge(a, b) {
+    const triangleSideA = a
+    const triangleSideB = b
+    const triangleSideC = (triangleSideA + triangleSideB) - 1
+    console.log(triangleSideC)
+}
+
+maximumTriangleEdge(10, 16);
