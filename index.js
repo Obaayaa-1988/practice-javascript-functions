@@ -856,3 +856,11 @@ function returnRemainder(a, b) {
 
 }
 returnRemainder(7, 3);
+
+//write a function to find the perimeter of a rectangle
+function rectanglePerimeter(l, w) {
+    const widthLengthRectangle = 2 * (l + w);
+    console.log(widthLengthRectangle)
+}
+
+rectanglePerimeter(10, 10);
