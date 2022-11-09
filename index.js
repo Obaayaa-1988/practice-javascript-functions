@@ -864,3 +864,12 @@ function rectanglePerimeter(l, w) {
 }
 
 rectanglePerimeter(10, 10);
+
+//write a function to return or console a string sentence
+
+function stringSentence(a, b) {
+    console.log(`${a} ${b}`)
+
+}
+
+stringSentence("Ama", " how are you doing today");
