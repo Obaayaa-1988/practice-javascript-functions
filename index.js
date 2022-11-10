@@ -873,3 +873,18 @@ function stringSentence(a, b) {
 }
 
 stringSentence("Ama", " how are you doing today");
+
+//create a function to check if a number is equal or less than zero
+ function checkEqualNumber(){
+
+ }
+
+ checkEqualNumber()
+
+
+
+
+
+
+
+ 
