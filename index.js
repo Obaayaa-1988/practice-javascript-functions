@@ -884,6 +884,15 @@ function checkEqualNumber(a) {
 
 checkEqualNumber(-1)
 
+//write a function to find all the sides of a polygon
+function findSidesOfPolygon(n) {
+    const sidesPolygon = (n - 2) * 180;
+    console.log(sidesPolygon)
+
+}
+
+findSidesOfPolygon(4);
+
 
 
 
