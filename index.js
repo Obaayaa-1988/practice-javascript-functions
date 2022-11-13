@@ -893,6 +893,8 @@ function findSidesOfPolygon(n) {
 
 findSidesOfPolygon(4);
 
+//write a funtion to find basketnall points
+
 
 
 
