@@ -875,16 +875,17 @@ function stringSentence(a, b) {
 stringSentence("Ama", " how are you doing today");
 
 //create a function to check if a number is equal or less than zero
- function checkEqualNumber(){
+function checkEqualNumber(a, b) {
+    const twoPointers = (2 * a) + (3 * b)
+    console.log(twoPointers)
 
- }
+}
 
- checkEqualNumber()
-
-
-
-
+checkEqualNumber(7, 5)
 
 
 
- 
+
+
+
+
