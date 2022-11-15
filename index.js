@@ -900,7 +900,14 @@ function findSidesOfPolygon(n) {
 
 findSidesOfPolygon(4);
 
-//write a funtion to find basketnall points
+//write a funtion to concatenate a basic variable
+
+function concateVariable(a) {
+    const varyConcat = 'edabit javascript quizzes are the best';
+    console.log(`${a} ${varyConcat}`)
+}
+
+concateVariable('Ama says');
 
 
 
