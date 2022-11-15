@@ -882,6 +882,25 @@ function checkEqualNumber(a, b) {
 }
 
 checkEqualNumber(7, 5)
+function checkEqualNumber(a) {
+    if (a <= 0) {
+        console.log(`Yes ${a} is less than zer0`)
+    }
+
+}
+
+checkEqualNumber(-1)
+
+//write a function to find all the sides of a polygon
+function findSidesOfPolygon(n) {
+    const sidesPolygon = (n - 2) * 180;
+    console.log(sidesPolygon)
+
+}
+
+findSidesOfPolygon(4);
+
+//write a funtion to find basketnall points
 
 
 
