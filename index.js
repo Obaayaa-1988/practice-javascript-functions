@@ -909,6 +909,24 @@ function concateVariable(a) {
 
 concateVariable('Ama says');
 
+//write a function to return a boolean if two numbers when added is less than 100
+
+function numberBooolean(a, b) {
+    const addedTwoNumbers = a + b;
+    if (addedTwoNumbers < 100) {
+        console.log(`${addedTwoNumbers} is less 100 so it is truthy`)
+    } else {
+        console.log(false)
+    }
+
+
+}
+numberBooolean(220, 15)
+
+
+
+
+
 
 
 
