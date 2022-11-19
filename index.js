@@ -923,6 +923,20 @@ function numberBooolean(a, b) {
 }
 numberBooolean(220, 15)
 
+//write a function to check if two num1 is equal to num2 
+
+function twoEqualNumbers(z, y) {
+
+    if (z = y) {
+        console.log(` ${z} is equal to ${y}`)
+    } else {
+        console.log(`${z} is not equal  ${y}`)
+    }
+
+}
+
+twoEqualNumbers(4, 4);
+
 
 
 
