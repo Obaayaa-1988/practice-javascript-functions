@@ -937,6 +937,16 @@ function twoEqualNumbers(z, y) {
 
 twoEqualNumbers(4, 4);
 
+//write a function to get football wins, loss and draws
+
+function footballWinsDrawsLoss(a, b, c) {
+    const footballPoints = (a * 3) + (b * 1) + (c * 0);
+    console.log(footballPoints)
+
+}
+
+footballWinsDrawsLoss(3, 4, 2)
+
 
 
 
