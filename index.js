@@ -19,8 +19,8 @@
 
 // const items = ["wrench", "hammer", "mallet", "chainsaw", "chisel", "screw", "screwdriver"];
 
-// function showItems(){
-//     for(let i = 0; i < items.length; i++){
+// function showItems() {
+//     for (let i = 0; i < items.length; i++) {
 //         console.log(items[i])
 
 //     }
@@ -705,19 +705,18 @@ let oddFind = []
 
 //write a function to return a boolean if a number is divisible by 10
 
-function returnBoolean(a) {
-    if (a % 10 === 0) {
-        console.log('true')
-    } else {
-        console.log('false')
+// function returnBoolean(a) {
+//     if (a % 10 === 0) {
+//         console.log('true')
+//     } else {
+//         console.log('false')
 
-    }
-}
-returnBoolean(1);
+//     }
+// }
+// returnBoolean(1);
 
 //write a function to return the number of vowels in a string
 
-returnBoolean(1);
 
 //write a function to return the first item of an array
 // const firstArray = ['mango', 'pear', 'apple', 'kiwi']
@@ -766,33 +765,33 @@ returnBoolean(1);
 
 //write a function to change the image attribute of an html element,turn on and off light
 
-const onLight = document.querySelector(".lightOn")
-const offLight = document.querySelector(".lightOff")
-const banner = document.querySelector(".ban")
-const banners = document.querySelector(".bans")
+// const onLight = document.querySelector(".lightOn")
+// const offLight = document.querySelector(".lightOff")
+// const banner = document.querySelector(".ban")
+// const banners = document.querySelector(".bans")
 
-function onLightBulb() {
+// function onLightBulb() {
 
-    onLight.addEventListener('click', () => {
-        const banns = banner.src = 'light-on.jpg';
-        console.log(banns)
+//     onLight.addEventListener('click', () => {
+//         const banns = banner.src = 'light-on.jpg';
+//         console.log(banns)
 
 
-    })
-}
+//     })
+// }
 
-onLightBulb();
+// onLightBulb();
 
-function offLightBulb() {
-    offLight.addEventListener('click', () => {
-        const bann = banners.src = 'light-off.jpg'
-        console.log(bann)
+// function offLightBulb() {
+//     offLight.addEventListener('click', () => {
+//         const bann = banners.src = 'light-off.jpg'
+//         console.log(bann)
 
-    })
+//     })
 
-}
+// }
 
-offLightBulb()
+// offLightBulb()
 
 
 
@@ -819,135 +818,159 @@ offLightBulb()
 
 //write a function to return tthe next number integer
 
-function nextInteger(a) {
-    const additionToInteger = a + 1;
-    console.log(additionToInteger)
+// function nextInteger(a) {
+//     const additionToInteger = a + 1;
+//     console.log(additionToInteger)
 
-}
+// }
 
-nextInteger(22);
+// nextInteger(22);
 
 //write a function to fix a bug in a code
 
-function exponentCube(a, y) {
-    // const exponentMultiply = a ** y
-    const exponentMultiply = Math.pow(a, y)
-    console.log(exponentMultiply)
+// function exponentCube(a, y) {
+//     // const exponentMultiply = a ** y
+//     const exponentMultiply = Math.pow(a, y)
+//     console.log(exponentMultiply)
 
-}
+// }
 
-exponentCube(7, 3);
+// exponentCube(7, 3);
 
 //write a function to find the maximum edge of a triangle
 
-function maximumTriangleEdge(a, b) {
-    const triangleSideA = a
-    const triangleSideB = b
-    const triangleSideC = (triangleSideA + triangleSideB) - 1
-    console.log(triangleSideC)
-}
+// function maximumTriangleEdge(a, b) {
+//     const triangleSideA = a
+//     const triangleSideB = b
+//     const triangleSideC = (triangleSideA + triangleSideB) - 1
+//     console.log(triangleSideC)
+// }
 
-maximumTriangleEdge(10, 16);
+// maximumTriangleEdge(10, 16);
 
 //write a function to return the remainder of two numbers
-function returnRemainder(a, b) {
-    const showRemainder = (a % b)
-    console.log(showRemainder)
+// function returnRemainder(a, b) {
+//     const showRemainder = (a % b)
+//     console.log(showRemainder)
 
-}
-returnRemainder(7, 3);
+// }
+// returnRemainder(7, 3);
 
 //write a function to find the perimeter of a rectangle
-function rectanglePerimeter(l, w) {
-    const widthLengthRectangle = 2 * (l + w);
-    console.log(widthLengthRectangle)
-}
+// function rectanglePerimeter(l, w) {
+//     const widthLengthRectangle = 2 * (l + w);
+//     console.log(widthLengthRectangle)
+// }
 
-rectanglePerimeter(10, 10);
+// rectanglePerimeter(10, 10);
 
 //write a function to return or console a string sentence
 
-function stringSentence(a, b) {
-    console.log(`${a} ${b}`)
+// function stringSentence(a, b) {
+//     console.log(`${a} ${b}`)
 
-}
+// }
 
-stringSentence("Ama", " how are you doing today");
+// stringSentence("Ama", " how are you doing today");
 
 //create a function to check if a number is equal or less than zero
-function checkEqualNumber(a, b) {
-    const twoPointers = (2 * a) + (3 * b)
-    console.log(twoPointers)
+// function checkEqualNumber(a, b) {
+//     const twoPointers = (2 * a) + (3 * b)
+//     console.log(twoPointers)
 
-}
+// }
 
-checkEqualNumber(7, 5)
-function checkEqualNumber(a) {
-    if (a <= 0) {
-        console.log(`Yes ${a} is less than zer0`)
-    }
+// checkEqualNumber(7, 5)
+// function checkEqualNumber(a) {
+//     if (a <= 0) {
+//         console.log(`Yes ${a} is less than zer0`)
+//     }
 
-}
+// }
 
-checkEqualNumber(-1)
+// checkEqualNumber(-1)
 
 //write a function to find all the sides of a polygon
-function findSidesOfPolygon(n) {
-    const sidesPolygon = (n - 2) * 180;
-    console.log(sidesPolygon)
+// function findSidesOfPolygon(n) {
+//     const sidesPolygon = (n - 2) * 180;
+//     console.log(sidesPolygon)
 
-}
+// }
 
-findSidesOfPolygon(4);
+// findSidesOfPolygon(4);
 
 //write a funtion to concatenate a basic variable
 
-function concateVariable(a) {
-    const varyConcat = 'edabit javascript quizzes are the best';
-    console.log(`${a} ${varyConcat}`)
-}
+// function concateVariable(a) {
+//     const varyConcat = 'edabit javascript quizzes are the best';
+//     console.log(`${a} ${varyConcat}`)
+// }
 
-concateVariable('Ama says');
+// concateVariable('Ama says');
 
 //write a function to return a boolean if two numbers when added is less than 100
 
-function numberBooolean(a, b) {
-    const addedTwoNumbers = a + b;
-    if (addedTwoNumbers < 100) {
-        console.log(`${addedTwoNumbers} is less 100 so it is truthy`)
-    } else {
-        console.log(false)
-    }
+// function numberBooolean(a, b) {
+//     const addedTwoNumbers = a + b;
+//     if (addedTwoNumbers < 100) {
+//         console.log(`${addedTwoNumbers} is less 100 so it is truthy`)
+//     } else {
+//         console.log(false)
+//     }
 
 
-}
-numberBooolean(220, 15)
+// }
+// numberBooolean(220, 15)
 
-//write a function to check if two num1 is equal to num2 
+//write a function to check if two num1 is equal to num2
 
-function twoEqualNumbers(z, y) {
+// function twoEqualNumbers(z, y) {
 
-    if (z = y) {
-        console.log(` ${z} is equal to ${y}`)
-    } else {
-        console.log(`${z} is not equal  ${y}`)
-    }
+//     if (z = y) {
+//         console.log(` ${z} is equal to ${y}`)
+//     } else {
+//         console.log(`${z} is not equal  ${y}`)
+//     }
 
-}
+// }
 
-twoEqualNumbers(4, 4);
+// twoEqualNumbers(4, 4);
 
 //write a function to get football wins, loss and draws
 
-function footballWinsDrawsLoss(a, b, c) {
-    const footballPoints = (a * 3) + (b * 1) + (c * 0);
-    console.log(footballPoints)
+// function footballWinsDrawsLoss(a, b, c) {
+//     const footballPoints = (a * 3) + (b * 1) + (c * 0);
+//     console.log(footballPoints)
 
+// }
+
+// footballWinsDrawsLoss(3, 4, 2)
+
+//write a function to loop through any number placed inside the function argruement
+
+let newLooped = []
+
+function loopThroughNumber(a) {
+    for (let i = 1; i <= a; i++) {
+        newLooped.push(i)
+        console.log(newLooped)
+    }
 }
 
-footballWinsDrawsLoss(3, 4, 2)
+loopThroughNumber(20);
 
 
+// const items = ["wrench", "hammer", "mallet", "chainsaw", "chisel", "screw", "screwdriver"];
+
+// function showItems() {
+//     for (let i = 0; i < items.length; i++) {
+//         console.log(items[i])
+
+//     }
+
+// }
+
+// showItems();
 
 
 
