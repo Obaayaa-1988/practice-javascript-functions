@@ -948,30 +948,26 @@ let oddFind = []
 
 //write a function to loop through any number placed inside the function argruement
 
-let newLooped = []
+// let newLooped = []
 
-function loopThroughNumber(a) {
-    for (let i = 1; i <= a; i++) {
-        newLooped.push(i)
-        console.log(newLooped)
-    }
-}
-
-loopThroughNumber(20);
-
-
-// const items = ["wrench", "hammer", "mallet", "chainsaw", "chisel", "screw", "screwdriver"];
-
-// function showItems() {
-//     for (let i = 0; i < items.length; i++) {
-//         console.log(items[i])
-
+// function loopThroughNumber(a) {
+//     for (let i = 1; i <= a; i++) {
+//         newLooped.push(i)
+//         console.log(newLooped)
 //     }
-
 // }
 
-// showItems();
+// loopThroughNumber(20);
 
+//function to print out right values
+
+function swapNumber(a, b) {
+    console.log(`${b},${a}`)
+
+
+}
+
+swapNumber(100, 200);
 
 
 
