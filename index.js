@@ -961,13 +961,23 @@ let oddFind = []
 
 //function to print out right values
 
-function swapNumber(a, b) {
-    console.log(`${b},${a}`)
+// function swapNumber(a, b) {
+//     console.log(`${b},${a}`)
 
+
+// }
+
+// swapNumber(100, 200);
+
+//write a function to count the legs of animals
+
+function animalLegsCount(a, b, c) {
+    const addAllLegs = (a + 2) + (b * 4) + (c * 4)
+    console.log(addAllLegs)
 
 }
 
-swapNumber(100, 200);
+animalLegsCount(2, 3, 5)
 
 
 
