@@ -977,7 +977,22 @@ function animalLegsCount(a, b, c) {
 
 }
 
-animalLegsCount(2, 3, 5)
+animalLegsCount(2, 3, 5);
+
+//write a function with logical operator &&
+
+function logicalOperatorCheck(a,b){
+    if( a  && b ){
+        console.log(true)
+
+    } else {
+        console.log(false)
+
+    }
+
+}
+
+logicalOperatorCheck(4,4)
 
 
 
