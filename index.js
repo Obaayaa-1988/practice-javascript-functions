@@ -980,9 +980,11 @@ function animalLegsCount(a, b, c) {
 animalLegsCount(2, 3, 5);
 
 //write a function with logical operator &&
+const a = 5;
+const b = 7
 
-function logicalOperatorCheck(a,b){
-    if( a  && b ){
+function logicalOperatorCheck(){
+    if( a < 10 && b > 0 ){
         console.log(true)
 
     } else {
@@ -992,7 +994,7 @@ function logicalOperatorCheck(a,b){
 
 }
 
-logicalOperatorCheck(4,4)
+logicalOperatorCheck();
 
 
 
