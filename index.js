@@ -983,8 +983,8 @@ animalLegsCount(2, 3, 5);
 const a = 5;
 const b = 7
 
-function logicalOperatorCheck(){
-    if( a < 10 && b > 0 ){
+function logicalOperatorCheck() {
+    if (a < 10 && b > 0) {
         console.log(true)
 
     } else {
@@ -996,10 +996,19 @@ function logicalOperatorCheck(){
 
 logicalOperatorCheck();
 
+//write a function to return a truthy boolean if x = 7;
+
+function truthyBooleanRetun(x) {
+    if (x === 7) {
+        console.log(`true ${x} is equal to 7`)
+    } else {
+        console.log(`false ${x} is not equal to 7`)
+    }
 
 
+}
 
-
+truthyBooleanRetun(700);
 
 
 
