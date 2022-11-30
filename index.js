@@ -1010,5 +1010,19 @@ function truthyBooleanRetun(x) {
 
 truthyBooleanRetun(700);
 
+//write a function to verify values of two parameters
+
+function verifiedParameter(a, b) {
+    if (typeof a === 'number' && typeof b === 'number') {
+        console.log(`yes ${a} and ${b} have same type and value`)
+
+    } else {
+        console.log(false)
+    }
+
+}
+
+verifiedParameter(7, "mango");
+
 
 
