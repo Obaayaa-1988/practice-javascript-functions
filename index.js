@@ -1041,7 +1041,7 @@ verifiedStringParameter("eggs", "love")
 //write a function that takes three parameters that checks if two of the parameters are equal
 
 function checkEqualParameter(a, b, c) {
-    if ( a * b > c) {
+    if (a * b > c) {
         console.log(`yes ${a} and ${b} are greater ${c}`)
 
     } else {
@@ -1051,5 +1051,16 @@ function checkEqualParameter(a, b, c) {
 }
 
 checkEqualParameter(0.2, 50, 9)
+
+//write an arrow function that console log a parameter
+
+const arrowFunctionParameter = (a) => {
+    const addTwoParameters = a + a;
+    console.log(addTwoParameters);
+
+
+}
+
+arrowFunctionParameter(2, 2);
 
 
