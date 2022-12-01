@@ -1038,4 +1038,18 @@ function verifiedStringParameter(a, b) {
 
 verifiedStringParameter("eggs", "love")
 
+//write a function that takes three parameters that checks if two of the parameters are equal
+
+function checkEqualParameter(a, b, c) {
+    if ( a * b > c) {
+        console.log(`yes ${a} and ${b} are greater ${c}`)
+
+    } else {
+        console.log(false)
+    }
+
+}
+
+checkEqualParameter(0.2, 50, 9)
+
 
