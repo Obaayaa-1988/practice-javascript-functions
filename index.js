@@ -1063,4 +1063,14 @@ const arrowFunctionParameter = (a) => {
 
 arrowFunctionParameter(2, 2);
 
+//Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+
+function numberOfFrames(a, b) {
+    const framesInSeconds = (a * 60) * b;
+    console.log(framesInSeconds)
+
+
+}
+
+numberOfFrames(10, 25);
 
