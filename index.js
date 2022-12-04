@@ -1074,3 +1074,14 @@ function numberOfFrames(a, b) {
 
 numberOfFrames(10, 25);
 
+//write a function to calculate numbers but in string
+
+function algebraInStrings(a, b){
+
+    const additionInStrings = 
+    console.log(algebraInStrings)
+
+}
+
+algebraInStrings("27", "1");
+
