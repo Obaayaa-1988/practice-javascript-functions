@@ -1076,12 +1076,22 @@ numberOfFrames(10, 25);
 
 //write a function to calculate numbers but in string
 
-function algebraInStrings(a, b){
+// function algebraInStrings(a, b){
 
-    const additionInStrings = 
-    console.log(algebraInStrings)
+//     const additionInStrings = 
+//     console.log(algebraInStrings)
+
+// }
+
+// algebraInStrings("27", "1");
+
+//write a function with special character greeting
+
+function specialGreeting(a){
+    console.log(`Hello ${a}`)
+    
 
 }
 
-algebraInStrings("27", "1");
+specialGreeting("matt");
 
