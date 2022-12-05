@@ -1091,9 +1091,22 @@ let oddFind = []
 
 // function specialGreeting(a){
 //     console.log(`Hello ${a}`)
-    
+
 
 // }
 
 // specialGreeting("matt");
 
+//Create a function that takes two arguments.Both arguments are integers, a and b
+
+function twoArguementIntergers(x, y) {
+    if (x + 1 == 10 || y == 10) {
+        console.log(true)
+
+    } else {
+        console.log(false)
+    }
+
+}
+
+twoArguementIntergers(9, 10);
