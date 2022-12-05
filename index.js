@@ -971,127 +971,129 @@ let oddFind = []
 
 //write a function to count the legs of animals
 
-function animalLegsCount(a, b, c) {
-    const addAllLegs = (a + 2) + (b * 4) + (c * 4)
-    console.log(addAllLegs)
+// function animalLegsCount(a, b, c) {
+//     const addAllLegs = (a + 2) + (b * 4) + (c * 4)
+//     console.log(addAllLegs)
 
-}
+// }
 
-animalLegsCount(2, 3, 5);
+// animalLegsCount(2, 3, 5);
 
 //write a function with logical operator &&
-const a = 5;
-const b = 7
+// const a = 5;
+// const b = 7
 
-function logicalOperatorCheck() {
-    if (a < 10 && b > 0) {
-        console.log(true)
+// function logicalOperatorCheck() {
+//     if (a < 10 && b > 0) {
+//         console.log(true)
 
-    } else {
-        console.log(false)
+//     } else {
+//         console.log(false)
 
-    }
+//     }
 
-}
+// }
 
-logicalOperatorCheck();
+// logicalOperatorCheck();
 
 //write a function to return a truthy boolean if x = 7;
 
-function truthyBooleanRetun(x) {
-    if (x === 7) {
-        console.log(`true ${x} is equal to 7`)
-    } else {
-        console.log(`false ${x} is not equal to 7`)
-    }
+// function truthyBooleanRetun(x) {
+//     if (x === 7) {
+//         console.log(`true ${x} is equal to 7`)
+//     } else {
+//         console.log(`false ${x} is not equal to 7`)
+//     }
 
 
-}
+// }
 
-truthyBooleanRetun(700);
+// truthyBooleanRetun(700);
 
 //write a function to verify values of two parameters
 //for numbers
 
-function verifiedNumberParameter(a, b) {
-    if (typeof a === 'number' && typeof b === 'number') {
-        console.log(`yes ${a} and ${b} are numbers have same type and value`)
+// function verifiedNumberParameter(a, b) {
+//     if (typeof a === 'number' && typeof b === 'number') {
+//         console.log(`yes ${a} and ${b} are numbers have same type and value`)
 
-    } else {
-        console.log(false)
-    }
-
-}
-
-verifiedNumberParameter(7, 8);
-
-//for strings
-function verifiedStringParameter(a, b) {
-    if (typeof a === 'string' && typeof b === 'string') {
-        console.log(`yes ${a} and ${b} are strings have same type and value`)
-
-    } else {
-        console.log(false)
-    }
-
-}
-
-verifiedStringParameter("eggs", "love")
-
-//write a function that takes three parameters that checks if two of the parameters are equal
-
-function checkEqualParameter(a, b, c) {
-    if (a * b > c) {
-        console.log(`yes ${a} and ${b} are greater ${c}`)
-
-    } else {
-        console.log(false)
-    }
-
-}
-
-checkEqualParameter(0.2, 50, 9)
-
-//write an arrow function that console log a parameter
-
-const arrowFunctionParameter = (a) => {
-    const addTwoParameters = a + a;
-    console.log(addTwoParameters);
-
-
-}
-
-arrowFunctionParameter(2, 2);
-
-//Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
-
-function numberOfFrames(a, b) {
-    const framesInSeconds = (a * 60) * b;
-    console.log(framesInSeconds)
-
-
-}
-
-numberOfFrames(10, 25);
-
-//write a function to calculate numbers but in string
-
-// function algebraInStrings(a, b){
-
-//     const additionInStrings = 
-//     console.log(algebraInStrings)
+//     } else {
+//         console.log(false)
+//     }
 
 // }
 
-// algebraInStrings("27", "1");
+// verifiedNumberParameter(7, 8);
+
+//for strings
+// function verifiedStringParameter(a, b) {
+//     if (typeof a === 'string' && typeof b === 'string') {
+//         console.log(`yes ${a} and ${b} are strings have same type and value`)
+
+//     } else {
+//         console.log(false)
+//     }
+
+// }
+
+// verifiedStringParameter("eggs", "love")
+
+//write a function that takes three parameters that checks if two of the parameters are equal
+
+// function checkEqualParameter(a, b, c) {
+//     if (a * b > c) {
+//         console.log(`yes ${a} and ${b} are greater ${c}`)
+
+//     } else {
+//         console.log(false)
+//     }
+
+// }
+
+// checkEqualParameter(0.2, 50, 9)
+
+//write an arrow function that console log a parameter
+
+// const arrowFunctionParameter = (a) => {
+//     const addTwoParameters = a + a;
+//     console.log(addTwoParameters);
+
+
+// }
+
+// arrowFunctionParameter(2, 2);
+
+//Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+
+// function numberOfFrames(a, b) {
+//     const framesInSeconds = (a * 60) * b;
+//     console.log(framesInSeconds)
+
+
+// }
+
+// numberOfFrames(10, 25);
+
+//write a function to calculate numbers but in string
+
+// function algebraInStrings(a){
+
+//     const additionInStrings = eval(a)
+//     console.log(additionInStrings)
+
+// }
+
+// algebraInStrings("27+1");
+
+
 
 //write a function with special character greeting
 
-function specialGreeting(a){
-    console.log(`Hello ${a}`)
+// function specialGreeting(a){
+//     console.log(`Hello ${a}`)
     
 
-}
+// }
 
-specialGreeting("matt");
+// specialGreeting("matt");
 
