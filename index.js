@@ -1099,14 +1099,29 @@ let oddFind = []
 
 //Create a function that takes two arguments.Both arguments are integers, a and b
 
-function twoArguementIntergers(x, y) {
-    if (x + 1 == 10 || y == 10) {
-        console.log(true)
+// function twoArguementIntergers(x, y) {
+//     if (x + 1 == 10 || y == 10) {
+//         console.log(true)
 
-    } else {
-        console.log(false)
+//     } else {
+//         console.log(false)
+//     }
+
+// }
+
+// twoArguementIntergers(9, 10);
+
+//Create a function which calculates the amount of fuel it needs, given the distance.
+
+function calculateFuelAmount(y) {
+    const fuelDistance = y * 10;
+    if (fuelDistance > 100) {
+        console.log(fuelDistance)
+
+    } else if (fuelDistance < 100) {
+        console.log(100)
     }
 
 }
 
-twoArguementIntergers(9, 10);
+calculateFuelAmount(23.5);
