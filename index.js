@@ -1145,3 +1145,17 @@ function arrayOfParameters(a, b, c, d, e, f) {
 }
 
 arrayOfParameters(12, 222, 3, 6, 7, 8);
+
+//write a function to count strings by characters and check if the characters are equal
+
+function countStringsChar(a, b) {
+    if (a.length === b.length) {
+
+        console.log(`true ${a} characters are the same as ${b} charcters`)
+    } else {
+        console.log(`false ${a} charecters is not equal to ${b} characters`)
+    }
+
+}
+
+countStringsChar('straight', 'magnetses');
