@@ -1125,3 +1125,13 @@ function calculateFuelAmount(y) {
 }
 
 calculateFuelAmount(23.5);
+
+//write a function to find the maximum number between two number parameters
+
+function maximumNumberParameter(x, y) {
+    const findMaximum = (Math.max(x, y));
+    console.log(findMaximum);
+
+}
+
+maximumNumberParameter(-1, 0);
