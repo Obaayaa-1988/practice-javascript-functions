@@ -1135,3 +1135,13 @@ function maximumNumberParameter(x, y) {
 }
 
 maximumNumberParameter(-1, 0);
+
+//write a function to return the array of two parameters
+
+function arrayOfParameters(a, b, c, d, e, f) {
+    const newestArray = new Array(a, b, c, d, e, f)
+    console.log(newestArray)
+
+}
+
+arrayOfParameters(12, 222, 3, 6, 7, 8);
