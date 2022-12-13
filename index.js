@@ -1159,3 +1159,16 @@ function countStringsChar(a, b) {
 }
 
 countStringsChar('straight', 'magnetses');
+
+//write a function that returns true if a string is empty
+function stringIsEmpty(a) {
+    if (a.length === 0) {
+        console.log(`true ${a} is an empty string `)
+
+    } else if (a.length > 0) {
+        console.log(`false ${a} is not an empty string `)
+    }
+
+}
+
+stringIsEmpty("buy");
