@@ -1172,3 +1172,12 @@ function stringIsEmpty(a) {
 }
 
 stringIsEmpty("buy");
+
+//write a function that returns true if an integer is divisible by 5
+
+
+
+
+
+
+
