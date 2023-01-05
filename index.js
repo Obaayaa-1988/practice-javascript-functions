@@ -1113,67 +1113,74 @@ let oddFind = []
 
 //Create a function which calculates the amount of fuel it needs, given the distance.
 
-function calculateFuelAmount(y) {
-    const fuelDistance = y * 10;
-    if (fuelDistance > 100) {
-        console.log(fuelDistance)
+// function calculateFuelAmount(y) {
+//     const fuelDistance = y * 10;
+//     if (fuelDistance > 100) {
+//         console.log(fuelDistance)
 
-    } else if (fuelDistance < 100) {
-        console.log(100)
-    }
+//     } else if (fuelDistance < 100) {
+//         console.log(100)
+//     }
 
-}
+// }
 
-calculateFuelAmount(23.5);
+// calculateFuelAmount(23.5);
 
 //write a function to find the maximum number between two number parameters
 
-function maximumNumberParameter(x, y) {
-    const findMaximum = (Math.max(x, y));
-    console.log(findMaximum);
+// function maximumNumberParameter(x, y) {
+//     const findMaximum = (Math.max(x, y));
+//     console.log(findMaximum);
 
-}
+// }
 
-maximumNumberParameter(-1, 0);
+// maximumNumberParameter(-1, 0);
 
 //write a function to return the array of two parameters
 
-function arrayOfParameters(a, b, c, d, e, f) {
-    const newestArray = new Array(a, b, c, d, e, f)
-    console.log(newestArray)
+// function arrayOfParameters(a, b, c, d, e, f) {
+//     const newestArray = new Array(a, b, c, d, e, f)
+//     console.log(newestArray)
 
-}
+// }
 
-arrayOfParameters(12, 222, 3, 6, 7, 8);
+// arrayOfParameters(12, 222, 3, 6, 7, 8);
 
 //write a function to count strings by characters and check if the characters are equal
 
-function countStringsChar(a, b) {
-    if (a.length === b.length) {
+// function countStringsChar(a, b) {
+//     if (a.length === b.length) {
 
-        console.log(`true ${a} characters are the same as ${b} charcters`)
-    } else {
-        console.log(`false ${a} charecters is not equal to ${b} characters`)
-    }
+//         console.log(`true ${a} characters are the same as ${b} charcters`)
+//     } else {
+//         console.log(`false ${a} charecters is not equal to ${b} characters`)
+//     }
 
-}
+// }
 
-countStringsChar('straight', 'magnetses');
+// countStringsChar('straight', 'magnetses');
 
 //write a function that returns true if a string is empty
-function stringIsEmpty(a) {
-    if (a.length === 0) {
-        console.log(`true ${a} is an empty string `)
+// function stringIsEmpty(a) {
+//     if (a.length === 0) {
+//         console.log(`true ${a} is an empty string `)
 
-    } else if (a.length > 0) {
-        console.log(`false ${a} is not an empty string `)
-    }
+//     } else if (a.length > 0) {
+//         console.log(`false ${a} is not an empty string `)
+//     }
+
+// }
+
+// stringIsEmpty("buy");
+
+//write a function that returns true if an integer is divisible by 5
+function returnStringInteger(z){
+    const changeStringToNumber = parseInt(z);
+    console.log(changeStringToNumber)
 
 }
 
-stringIsEmpty("buy");
-
-//write a function that returns true if an integer is divisible by 5
+returnStringInteger("1000");
 
 
 
