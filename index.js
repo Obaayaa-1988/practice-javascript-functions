@@ -1,4 +1,4 @@
-//write a function to find the position of a letter in a string
+//write a function to find the position of a letter in a string(the string is a word ("great"))
 
 // function findLetter(word, letter) {
 //     const splitWord = word.split("");
@@ -1173,7 +1173,7 @@ let oddFind = []
 
 // stringIsEmpty("buy");
 
-//write a function that returns true if an integer is divisible by 5
+//write a function to convert string number to string
 function returnStringInteger(z){
     const changeStringToNumber = parseInt(z);
     console.log(changeStringToNumber)
@@ -1181,6 +1181,16 @@ function returnStringInteger(z){
 }
 
 returnStringInteger("1000");
+
+//write a function to find the area of a triangle
+function findTriangleArea(a, b){
+    const areaOfATriangle = a * b;
+    console.log(areaOfATriangle);
+
+}
+
+findTriangleArea(8, 36)
+
 
 
 
