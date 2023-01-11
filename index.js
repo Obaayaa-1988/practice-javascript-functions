@@ -418,28 +418,28 @@ const arrayObject = [{ name: "Akosua", age: 4, gender: "female" }, { name: "Kofi
 
 //write a function to find the odd numbers in an array of numbers
 // using forEach
-const mixedNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1]
-let newOddFind = []
+// const mixedNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1]
+// let newOddFind = []
 
-function findOddNumbers() {
-    mixedNumbers.forEach(num => {
-        if (num % 2) {
-            newOddFind.push(num)
-            console.log(newOddFind)
+// function findOddNumbers() {
+//     mixedNumbers.forEach(num => {
+//         if (num % 2) {
+//             newOddFind.push(num)
+//             console.log(newOddFind)
 
-        }
-    })
-
-
-
-}
+//         }
+//     })
 
 
-findOddNumbers();
+
+// }
+
+
+// findOddNumbers();
 
 //write a function to find the odd numbers in an array of numbers
-const oddNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1]
-let oddFind = []
+// const oddNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1]
+// let oddFind = []
 //using filter
 
 // function findFilteredOddNum() {
@@ -1174,29 +1174,36 @@ let oddFind = []
 // stringIsEmpty("buy");
 
 //write a function to convert string number to string
-function returnStringInteger(z) {
-    const changeStringToNumber = parseInt(z);
-    console.log(changeStringToNumber)
+// function returnStringInteger(z) {
+//     const changeStringToNumber = parseInt(z);
+//     console.log(changeStringToNumber)
 
-}
+// }
 
-returnStringInteger("1000");
+// returnStringInteger("1000");
 
 //write a function to find the area of a triangle
-function findTriangleArea(a, b) {
-    const areaOfATriangle = a * b;
-    console.log(areaOfATriangle);
+// function findTriangleArea(a, b) {
+//     const areaOfATriangle = a * b;
+//     console.log(areaOfATriangle);
 
-}
+// }
 
-findTriangleArea(8, 36)
+// findTriangleArea(8, 36)
 
 // write a function to find the odd numbers in an array of numbers
 //odd numbers are not divisble buy 2;
 //I love to code Thank You God for bringin My Desire In coding back. I lOVE YOU YAWEH
 // using forEach
 const oddsNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1];
-let currentOdds = []
+
+//loop through an array of numbers
+for(let i = 0; i < oddsNumbers.length; i++){
+    console.log(oddsNumbers[i])
+}
+
+
+// let currentOdds = []
 
 // function findingOddNumbers() {
 //     oddNumbers.forEach(add => {
@@ -1215,11 +1222,12 @@ let currentOdds = []
 
 //using filter
 
-function findOddsWithFilter(){
-    
+// function findOddsWithFilter() {
+//     const findingOddsFilter = oddsNumbers.filter(items => items % 2)
+//     console.log(findingOddsFilter)
 
-}
-findOddsWithFilter();
+// }
+// findOddsWithFilter();
 
 
 
