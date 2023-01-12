@@ -1198,9 +1198,9 @@ const arrayObject = [{ name: "Akosua", age: 4, gender: "female" }, { name: "Kofi
 const oddsNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1];
 
 //loop through an array of numbers
-for(let i = 0; i < oddsNumbers.length; i++){
-    console.log(oddsNumbers[i])
-}
+// for(let i = 0; i < oddsNumbers.length; i++){
+//     console.log(oddsNumbers[i])
+// }
 
 
 // let currentOdds = []
@@ -1228,6 +1228,18 @@ for(let i = 0; i < oddsNumbers.length; i++){
 
 // }
 // findOddsWithFilter();
+
+//
+
+function multiplication(number, multiple) {
+    number *= multiple;
+    return number;
+    
+
+}
+
+let result =multiplication(15, 2);
+console.log(result)
 
 
 
