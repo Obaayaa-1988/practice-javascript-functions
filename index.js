@@ -1234,15 +1234,30 @@ const oddsNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1];
 function multiplication(number, multiple) {
     number *= multiple;
     return number;
-    
 
 }
 
-let result =multiplication(15, 2);
+let result = multiplication(15, 2);
 console.log(result)
 
+//write a function that returns the number of true values in a string
+
+function trueStrings(a) {
+    const result = a.filter(num => num.length < 5);
+    console.log(result);
 
 
+}
+
+trueStrings([true, false, true, true]);
+
+
+// function isBigEnough(value) {
+//     return value.length <= 4;
+// }
+
+// const filtered = [true, false, true].filter(isBigEnough);
+// console.log(filtered);
 
 
 
