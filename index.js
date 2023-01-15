@@ -1270,5 +1270,19 @@ trueStrings([true, false, true, false, false]);
 // console.log(filtered);
 
 
+//write a function to return the sum of two function argruement
+
+function returnSumOArguement(a, b){
+    const sumOfNumbers = a + b;
+    console.log(sumOfNumbers)
+
+
+}
+
+
+returnSumOArguement(3, 2);
+returnSumOArguement(5, 2);
+returnSumOArguement(333, 2);
+
 
 
