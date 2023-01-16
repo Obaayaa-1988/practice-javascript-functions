@@ -1241,25 +1241,25 @@ const oddsNumbers = [3, 10, 7, 45, 37, 30, 4, 8, 90, 47, 84, 2, 1];
 // console.log(result)
 
 //write a function that returns the number of true values in a string
-let newBool = []
+// let newBool = []
 
-function trueStrings(a) {
-     a.forEach(num => {
-         if(num === true){
-             newBool.push(num)
+// function trueStrings(a) {
+//      a.forEach(num => {
+//          if(num === true){
+//              newBool.push(num)
           
-             console.log(newBool);
-         } 
-        //  else if (num === false){
-        //     newBool.push(n)
+//              console.log(newBool);
+//          } 
+//         //  else if (num === false){
+//         //     newBool.push(n)
 
-        //  }
-     });
+//         //  }
+//      });
 
 
-}
+// }
 
-trueStrings([true, false, true, false, false]);
+// trueStrings([true, false, true, false, false]);
 
 
 // function isBigEnough(value) {
@@ -1272,17 +1272,49 @@ trueStrings([true, false, true, false, false]);
 
 //write a function to return the sum of two function argruement
 
-function returnSumOArguement(a, b){
-    const sumOfNumbers = a + b;
-    console.log(sumOfNumbers)
+// function returnSumOArguement(a, b){
+//     const sumOfNumbers = a + b;
+//     console.log(sumOfNumbers)
 
+
+// }
+
+
+// returnSumOArguement(3, 2);
+// returnSumOArguement(5, 2);
+// returnSumOArguement(333, 2);
+
+//SECOND PART JAVASCRIPT EDABIT FUNCTIONS MEDIUM LEVEL
+
+function init() {
+    var name = 'zilla'; // name is a local variable created by init
+    function displayName() {
+        // displayName() is the inner function, a closure
+        console.log(name); // use variable declared in the parent function
+    }
+    displayName();
+}
+init();
+
+
+// if (Math.random() > 0.5) {
+//     var x = 1;
+// } else {
+//     var x = 2;
+// }
+// console.log(x);
+
+function redundant(a){
+    var fruit = 'mangoes';
+
+    function showFruit(){
+        console.log(fruit);
+    }
+
+    showFruit();
 
 }
 
-
-returnSumOArguement(3, 2);
-returnSumOArguement(5, 2);
-returnSumOArguement(333, 2);
-
+redundant();
 
 
