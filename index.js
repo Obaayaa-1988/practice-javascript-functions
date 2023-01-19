@@ -1318,3 +1318,13 @@ function redundant(a){
 redundant();
 
 
+//Create a function that takes your position a and your friend's position b
+function diceGame(a, b){
+    const gameDice = a == b ? false : b >= a ? ((a + 6) >= b) : false;
+    console.log(gameDice);
+
+}
+
+diceGame(3, 7);
+
+
