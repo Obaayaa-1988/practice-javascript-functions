@@ -1304,29 +1304,35 @@ init();
 // }
 // console.log(x);
 
-function redundant(a){
-    var fruit = 'mangoes';
+// function redundant(a){
+//     var fruit = 'mangoes';
 
-    function showFruit(){
-        console.log(fruit);
-    }
+//     function showFruit(){
+//         console.log(fruit);
+//     }
 
-    showFruit();
+//     showFruit();
 
-}
+// }
 
-redundant();
+// redundant();
 
 
 //Create a function that takes your position a and your friend's position b
-function diceGame(a, b){
-    const gameDice = a == b ? false : b >= a ? ((a + 6) >= b) : false;
-    console.log(gameDice);
+// function diceGame(a, b){
+//     const gameDice = a == b ? false : b >= a ? ((a + 6) >= b) : false;
+//     console.log(gameDice);
 
-}
+// }
 
-diceGame(3, 7);
- //write a function to find the length of a string
+// diceGame(3, 7);
+
+let number1;
+const number2 = 44;
+let number3 = 8;
+number3 = number2;
+console(number3)
+
 
  function lengthOfString(a){
     const stringLength = a.length;
