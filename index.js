@@ -1326,5 +1326,10 @@ function diceGame(a, b){
 }
 
 diceGame(3, 7);
+ //write a function to find the length of a string
 
-
+ function lengthOfString(a){
+    const stringLength = a.length;
+    console.log(stringLength)
+ }
+lengthOfString("yellow");
