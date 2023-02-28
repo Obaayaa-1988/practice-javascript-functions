@@ -1331,11 +1331,20 @@ let number1;
 const number2 = 44;
 let number3 = 8;
 number3 = number2;
-console(number3)
+console.log(number3)
 
 
- function lengthOfString(a){
-    const stringLength = a.length;
-    console.log(stringLength)
- }
-lengthOfString("yellow");
+//  function lengthOfString(a){
+//     const stringLength = a.length;
+//     console.log(stringLength)
+//  }
+// lengthOfString("yellow");
+
+//a function to reverse a string
+
+function stringReverse(a){
+    const reversedString = a.split('').reverse().join('');
+    console.log(reversedString)
+}
+
+stringReverse("fantastic")
