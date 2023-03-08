@@ -1350,9 +1350,10 @@ function stringReverse(a){
 stringReverse("fantastic")
 
 //write a function that takes a number and returns the perimeter of either a circle or a squre.
-function perimeterOfCircleInANumber(a){
-    const perimeterOfSquare = 4 * side;
+function perimeterOfCircleInANumber(a, b){
+    const perimeterOfSquare = 4 * b;
+    console.log(perimeterOfSquare)
 
 }
 
-perimeterOfCircleInANumber();
+perimeterOfCircleInANumber('s', 7);
