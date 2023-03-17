@@ -1356,4 +1356,4 @@ function perimeterOfCircleInANumber(s, num){
 
 }
 
-perimeterOfCircleInANumber();
+perimeterOfCircleInANumber("s", 7);
