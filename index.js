@@ -1351,7 +1351,7 @@ stringReverse("fantastic")
 
 //write a function that takes a number and returns the perimeter of either a circle or a squre.
 function perimeterOfCircleInANumber(s, num){
-    const perimeterOfSquare = s * num;
+    const s = s * num;
     console.log(perimeterOfSquare)
 
 }
