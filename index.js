@@ -1368,8 +1368,9 @@ perimeterOfCirlceInANumber("c", 9);
 
 //write a function that will return integer num
 function returnIntegerNumber(num){
-const integerNumber = num.length;
-console.log(integerNumber);
+const integerNumber = num.toString();
+const totalDigits = integerNumber.length
+console.log(totalDigits);
 }
 
 returnIntegerNumber(1000);
