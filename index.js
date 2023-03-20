@@ -1365,3 +1365,10 @@ function perimeterOfCirlceInANumber(c, num){
 
 }
 perimeterOfCirlceInANumber("c", 9);
+
+//write a function that will return integer num
+function returnIntegerNumber(){
+
+}
+
+returnIntegerNumber();
