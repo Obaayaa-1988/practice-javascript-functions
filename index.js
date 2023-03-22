@@ -1374,3 +1374,6 @@ console.log(totalDigits);
 }
 
 returnIntegerNumber(1000);
+
+console.log(Math.random(toString(16)));
+
