@@ -1377,3 +1377,10 @@ returnIntegerNumber(1000);
 
 console.log(Math.random(toString(16)));
 
+//write a function to return three arguements, obj,in key value pairs
+
+function stolenItems(){
+
+}
+
+stolenItems();
