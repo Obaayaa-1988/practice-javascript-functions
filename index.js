@@ -1379,8 +1379,10 @@ console.log(Math.random(toString(16)));
 
 //write a function to return three arguements, obj,in key value pairs
 
-function stolenItems(){
+function stolenItems(obj, name, value){
+    const turnObject = Object.assign(obj, name, value);
+    console.log(turnObject);
 
 }
 
-stolenItems();
+stolenItems({ piano: 500 }, "Brutus", 400);
