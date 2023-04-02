@@ -1384,9 +1384,10 @@ function stolenItems( obj, name, value){
     // let obj = {};
     //  obj[key] = value
     // console.log(obj);
+   const objCreate  = Object.assign(obj, {name, value});
+   console.log(objCreate)
 
-    
 
 }
 
-stolenItems({ piano: 500 }, "Brutus", 400);
+stolenItems({ }, "Brutus", 400);
